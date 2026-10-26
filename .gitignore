@@ -1,0 +1,13 @@
+# Ignore massive game dumps and zip packages
+*.zip
+*.exe
+/\[DLPSGAME.COM\]*/
+/FW*
+PS5BackportGUI.exe
+sdk/
+
+# Ignore scratch & temporary files
+*.o
+*.pyc
+__pycache__/
+.DS_Store
